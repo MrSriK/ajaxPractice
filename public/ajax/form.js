@@ -1,7 +1,7 @@
 $("#submitform").click(function(){
     let fname = $("#fname").val();
     let passwd=$("#passwd").val();
-    let gender=$("#gender").val();
+    let gender=$("input[name=gender]:checked").val();
     let agegroup=$("#agegroup").val();
     let submitform={
         fname:fname,
